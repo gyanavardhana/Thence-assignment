@@ -49,7 +49,7 @@ This project is a React JS website developed as a platform to market staff augme
 1. Clone the repository.
 2. Navigate to the project directory.
 3. Run `npm install` to install dependencies.
-4. Run `npm start` to start the development server.
+4. Run `npm run dev` to start the development server.
 
 ## Contributors
 - [Gyanavardhan](https://github.com/gyanavardhana)
