@@ -1,9 +1,10 @@
 import React from "react";
-import BrunelLogo from "../assets/Brunel.svg";
-import TickLogo from "../assets/Tick.svg";
-import "./FormStyles.css";
-import { useEffect , useState } from "react";
-import { useNavigate } from "react-router-dom";
+import BrunelLogo from "../../assets/Brunel.svg";
+import TickLogo from "../../assets/Tick.svg";
+import "./Success.css";
+import useRedirectTimer from "../../hooks/Redirecttimer";
+
+
 const Header = () => {
   return (
     <div className="header-container">
@@ -14,23 +15,7 @@ const Header = () => {
 };
 
 const Footer = () => {
-  const navigate = useNavigate(); 
-  const [countdown, setCountdown] = useState(5);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCountdown((prevCountdown) => prevCountdown - 1);
-    }, 1000);
-
-    return () => clearInterval(timer); 
-  }, []);
-  
-  useEffect(() => {
-    if (countdown === 0) {
-      navigate("/");
-    }
-  }, [countdown]);
-
+  const countdown = useRedirectTimer("/", 5);
   return (
     <div className="redirect-container">
       <p className="redirect-message">

@@ -1,0 +1,29 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logo-left {
+    width: 127.94px;
+    height: 47.39px;
+    top: 31.89px;
+    left: 52.22px;
+    padding: 7.86px 0.17px 9.03px 6.78px;
+  }
+  
+  .logo-right {
+    width: 64px;
+    height: 64px;
+    top: 32px;
+    left: 1324px;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 40px 0px 0px 0px;
+    cursor: pointer;
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }

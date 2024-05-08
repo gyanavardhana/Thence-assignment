@@ -1,20 +1,11 @@
 import React, { useState } from "react";
-import "./FormStyles.css";
 import { Navigate, useNavigate } from "react-router-dom";
-import BrunelLogo from "../assets/Brunel.svg";
-import CloseLogo from "../assets/Closeicon.svg";
-import ErrorLogo from "../assets/Error.svg";
-import validateEmail from "../utils/emailValidator";
+import ErrorLogo from "../../../assets/Error.svg";
+import validateEmail from "../../../utils/emailValidator";
+import Header from "../Header/Header";
+import "./FormStyles.css";
 
-const Header = () => {
-  return (
-    <div className="header-container">
-      <img src={BrunelLogo} alt="Brunel Logo" className="logo-left" />
-      <div className="spacer"></div>
-      <img src={CloseLogo} alt="Close Icon" className="logo-right" />
-    </div>
-  );
-};
+
 
 const ErrorMessage = ({ error }) => {
   return (
@@ -53,7 +44,7 @@ const Form = () => {
 
   return (
     <>
-      <Header />
+    <Header />
       <div className="Container">
       <div className="form-container">
         <div className="heading-container">
@@ -80,8 +71,6 @@ const Form = () => {
           />
           {!submitted && emailError && <ErrorMessage error={emailError} />}
           </div>
-          
-          
           <button type="submit" className="submit-button">
             Submit
           </button>

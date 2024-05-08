@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
+
+.head-container {
+  width: Fixed (1, 392px) px;
+  height: 111.17px;
+  top: 24px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 65.28px;
+  border: 1.31px solid #eaeaea;
+  justify-content: space-between;
+}
+
+.logo-left {
+  width: 127.94px;
+  height: 47.39px;
+  margin: 20px 0.17px 9.03px 40.78px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.headerpart-container {
+  width: 428.61px;
+  height: 77.22px;
+  padding: 15.67px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Button Styles */
+.button-base {
+  height: 77.22px;
+  border-radius: 107.06px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.59px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Manrope", sans-serif;
+  cursor: pointer;
+}
+
+.projects-button {
+  width: 189.56px;
+  padding: 26.11px 41.78px;
+  color: #1c1c1c;
+  background-color: white;
+  border: 1.31px solid #eaeaea;
+}
+
+.projects-button:hover {
+  background-color: #f1f1f1;
+}
+
+.onboard-button {
+  width: 223.39px;
+  padding: 26.11px 49.61px 26.11px 41.78px;
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.onboard-button:hover {
+  background-color: #4e4e4e;
+}
+
+
+.covered-by-your-grace-regular {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

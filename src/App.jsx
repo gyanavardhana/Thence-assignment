@@ -1,13 +1,15 @@
 import React from "react";
-import Form from "./components/Form";
-import Success from "./components/Success";
+import Home from "./components/Homepage/Home"
+import Form from "./components/Registerpage/Form/Form"
+import Success from "./components/Successpage/Success"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Form />} />
+        <Route path="/projects" element={<Form />} />
         <Route path="/success" element={<Success />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   );

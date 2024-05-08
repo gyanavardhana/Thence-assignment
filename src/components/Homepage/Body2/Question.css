@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
+.question-container {
+  width: Fixed(1376px) px;
+  height: 749px;
+  margin: 32px;
+  border-radius: 40px;
+  background-color: #e8eee7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+
+.question-heading-box {
+  width: 50%;
+  height: 749px;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.questions {
+  width: 50%;
+  height: 749px;
+  border-radius: 0px 40px 40px 0px;
+}
+
+.question-heading {
+  width: 405px;
+  height: 111px;
+  margin: 80px 95.6px;
+  gap: 20px;
+}
+
+.covered-by-your-grace-regular {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.question-heading1 {
+  width: 215px;
+  height: 25px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #9e9d9d;
+}
+
+.question-heading2 {
+  width: 405px;
+  height: 66px;
+  font-family: "Manrope", sans-serif;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.shade-symbol {
+  width: 491px;
+  height: 514.61px;
+}
+
+.question-box {
+  width: Fixed(581px) px;
+  height: 538px;
+  margin-top: 137px;
+  margin-left: 50px;
+  margin-right: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+
+
+.plus-logo {
+  width: 24px;
+  height: 24px;
+  padding: 0px 5px;
+}
+
+/* */
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #617275;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #D7D7D7;
+    border: 1px solid #D7D7D7
+}

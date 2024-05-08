@@ -45,87 +45,7 @@
 
 }
 
-.second-container {
-  width: 100%;
-  overflow-x: hidden; 
-}
 
-.success-header{
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 39.6px;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #2da950;
-  margin: 0px;
-}
-
-.success-heading{
-  font-family: "Manrope", sans-serif;
-  font-size: 56px;
-  font-weight: 600;
-  line-height: 67.2px;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #1c1c1c;
-  margin: 0px;
-}
-
-.success-message {
-  width: 718px;
-  height: 105px;
-  font-family: "Manrope", sans-serif;
-  color: #727272;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 35.1px;
-  text-align: center;
-}
-
-.success-container {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: auto;
-}
-
-.tick-logo {
-  width: 80px;
-  height: 80px;
-}
-
-.redirect-container {
-  width: 100%;
-  height: 26px;
-  text-align: center;
-}
-
-.redirect-message {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 26px;
-  color: #727272;
-  font-family: "Manrope, sans-serif";
-}
-
-.redirect-timer {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 26px;
-  color: black;
-  font-family: "Manrope", sans-serif;
-}
-
-.footer-container {
-  width: 100%;
-  position: absolute;
-  bottom: 20px;
-  text-align: center;
-  max-width: 1500px;
-  
-}
 
 form {
   width: 417px;
@@ -164,6 +84,7 @@ form {
   font-family: "Manrope", sans-serif;
   background-color: #1c1c1c;
   color: #ffffff;
+  cursor: pointer;
 }
 
 
@@ -185,30 +106,7 @@ form {
   font-style: normal;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
 
-.logo-left {
-  width: 127.94px;
-  height: 47.39px;
-  top: 31.89px;
-  left: 52.22px;
-  padding: 7.86px 0.17px 9.03px 6.78px;
-}
-
-.logo-right {
-  width: 64px;
-  height: 64px;
-  top: 32px;
-  left: 1324px;
-  padding: 16px 0px 0px 0px;
-  gap: 10px;
-  border-radius: 40px 0px 0px 0px;
-}
 
 .spacer {
   flex-grow: 1;
