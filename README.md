@@ -30,8 +30,12 @@ This project is a React JS website developed as a platform to market staff augme
 
 ![image](https://github.com/gyanavardhana/Thence-assignment/assets/89439095/d7a4cb67-0cd7-4029-a408-25e66106e810)
 
+![image](https://github.com/gyanavardhana/Thence-assignment/assets/89439095/d45da0f5-3fff-4c40-9aef-94c4f7369205)
+
+
 ### Register Page
 ![image](https://github.com/gyanavardhana/Thence-assignment/assets/89439095/6fd7e332-4364-41dc-bec6-11fa838a9799)
+
 
 
 ### Success Page
